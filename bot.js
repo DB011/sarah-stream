@@ -15,7 +15,7 @@ client.on('message', message => {
 
   
   if (message.content.startsWith(prefix + 'setwatch')) {
-  client.user.setActivity(argresult, {type: 'WATCHSHING'})
+  client.user.setActivity(argresult, {type: 'WATCHING'})
      console.log('test' + argresult);
     message.channel.sendMessage(`Watch Now: **${argresult}`)
 } 
